@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="App" class="caja row col-md-10">
+                <div class="titulo col-md-12"><h5>Contactos</h5></div>
+                <div class="col-md-6">
+                     <div class="box">
+                         <form id="contacto-form" class="card-body">
+                             <div class="form-group">
+                                 <input type="text" id="nombre" placeholder="Nombre..." maxlength="10" class="fondo1 form-control">
+                             </div>
+                             <div class="form-group">
+                                 <input type="number" id="numero" placeholder="Tlf..." maxlength="12" class="fondo2 form-control">
+                             </div>
+                             <div class="row boton col-md-12">
+                                 <div class="enter col-xs-6">
+                                   <input type="submit" value="Agregar Contacto" class="botonAgregar btn btn-primary ">
+                                </div>
+                            </div>
+                        </form>
+                     </div>
+                </div>
+                <div id="contacto-list" class="lista col-md-6"></div>
+            </div>
+        </div>
+        <script src="funciones.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

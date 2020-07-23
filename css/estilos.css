@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ header { 
+    background: #eef2ff;
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(164, 187, 223);
+}
+
+footer {
+    background:#eef2ff;
+    padding: 20px;
+}
+
+section .container {
+    padding: 30px;
+    
+}

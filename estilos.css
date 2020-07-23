@@ -1,0 +1,83 @@
+*
+body {
+    background: rgb(209, 205, 205);
+}
+
+.card-header {
+    text-align: center;
+}
+
+.barra {
+    text-align: center;
+}
+
+.caja {
+    background: #f2f2f2;
+    margin-top: 10%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo {
+    text-align:center;
+    margin-top: 20px;
+}
+
+.boton {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.cajac {
+    margin-top: 0px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 2px 0px 0px 0px;
+    border-color: khaki;
+    border-style: solid;
+}
+
+.lista {
+    margin-bottom: 20px;
+    padding-left: 5px;
+    border-width: 0px 0px 0px 2px;
+    border-left-color: khaki;
+    border-style: solid;
+}
+
+.fondo1 {
+    border-radius: 0px;
+    background-color: rgb(206, 203, 194);
+    border-width: 0px 0px 5px 0px;
+    border-bottom-color:grey;
+}
+
+.fondo2 {
+    border-radius: 0px;
+    background-color: rgb(206, 203, 194);
+    border-width: 0px 0px 5px 0px;
+    border-bottom-color:grey;
+}
+
+.botonEliminar {
+    border-radius: 0px;
+}
+
+.botonAgregar {
+    border-radius: 0px;
+}
+
+@media (max-width:700px) {
+    .lista {
+        margin-bottom: 20px;
+        padding-left: 5px;
+        border-width: 0px 0px 0px 2px;
+        border-left-color: #f2f2f2;
+        border-style: solid;
+    }
+}
